@@ -1,0 +1,113 @@
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .left .name {
+    color: white;
+    font-size: 30px;
+    font-family: 'Bowlby One';
+    margin: 36px 72px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer .left {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 24px;
+}
+
+.footer .right a {
+    color: white;
+    font-size: 18px;
+    font-family: 'Bowlby One';
+    padding: 21px 27px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer .right .order {
+    background-color: #B3A0CD;
+    color: #1E1E1E;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main .text {
+    display: inline;
+    color: white;
+    font-size: 80px;
+    font-family: 'Bowlby One';
+    margin: 36px 72px;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 1255px;
+}
+
+.main .image {
+    margin-top: -90px;
+    max-width: 90%;
+}
+
+.main .image img {
+    width: 100%;
+}
+
+.about {
+    background-color: #D1EF53;
+    margin: 50px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .description {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.about .main_text {
+    color: #1E1E1E;
+    font-size: 70px;
+    font-family: 'Bowlby One';
+    padding: 21px 27px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 98px 20px;
+    max-width: 533px;
+}
+
+.about .description .text {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    max-width: 521px;
+}
+
+.about .description .button {
+    margin-top: 34px;
+}
